@@ -1,8 +1,6 @@
 <!-- @format -->
 
-<script setup lang="ts">
-  const layout = 'logged';
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <NuxtLayout>

@@ -1,6 +1,12 @@
 <!-- @format -->
 
 <script setup lang="ts">
+  useSeoMeta({
+    title: 'About page',
+    description: 'This is the main page of the portfolio website',
+    ogTitle: 'Main page',
+  });
+
   const enableCustomLayout = () => {
     setPageLayout('logged');
   };
