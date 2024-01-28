@@ -24,13 +24,19 @@
         <li class="link">
           <NuxtLink to="/projects">Projects</NuxtLink>
         </li>
-        <ColorMode />
+        <ClientOnly>
+          <div>
+            <ColorMode />
+          </div>
+        </ClientOnly>
       </ul>
     </nav>
   </header>
 </template>
 
 <style scoped>
+  .dark header {
+  }
   .link {
     @apply p-2 hover:bg-gray-500;
   }

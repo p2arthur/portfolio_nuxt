@@ -6,7 +6,5 @@
 </script>
 
 <template>
-  <h1>
-    We're inside of blog post number <span>{{ route.params.slug }}</span>
-  </h1>
+  <article><ContentDoc /></article>
 </template>
