@@ -37,7 +37,7 @@
         <a
           target="_blank"
           :href="repo.html_url"
-          ><div class="p-2 bg-gray-300 flex items-center justify-between">
+          ><div class="">
             <div>
               <p class="font-semibold">{{ repo.name }}</p>
               <p>{{ repo.description }}</p>
@@ -49,3 +49,9 @@
     </ul>
   </section>
 </template>
+
+<style scoped>
+  a {
+    @apply p-2 border-2 border-gray-500 flex items-center justify-between;
+  }
+</style>

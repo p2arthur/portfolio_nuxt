@@ -1,5 +1,9 @@
 <!-- @format -->
 
+<script setup lang="ts">
+  const colorMode = useColorMode();
+</script>
+
 <template>
   <header
     class="flex justify-between bg-gray-900 items-center p-2 text-gray-100 mb-10">
@@ -20,6 +24,7 @@
         <li class="link">
           <NuxtLink to="/projects">Projects</NuxtLink>
         </li>
+        <ColorMode />
       </ul>
     </nav>
   </header>
